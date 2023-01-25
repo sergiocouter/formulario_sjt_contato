@@ -27,11 +27,41 @@
     text-decoration: none;
     color: #1d1d2e;
     font-size: 18px;
+    font-weight: bold;
     transition: all 0.5s;
 }
 
 .a_pagina_contato:hover{
     border-radius: 20px;
+}
+
+/*Media quarys*/
+
+@media (max-width: 600px){
+    .h1_pagina_contato{
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 500px){
+    .h1_pagina_contato{
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 400px){
+    .h1_pagina_contato{
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        margin-bottom: 30px;
+    }
 }
 
 
